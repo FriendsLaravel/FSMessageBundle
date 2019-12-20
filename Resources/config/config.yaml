@@ -1,0 +1,5 @@
+services:
+  FS\MessageBundle\Controller\MessageController:
+    public: true
+    arguments:
+      $container: '@service_container'

@@ -1,0 +1,3 @@
+fs_message_api_send:
+    path:       /send
+    defaults: { _controller: FS\MessageBundle\Controller\MessageController::sendAction}
